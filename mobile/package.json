@@ -1,0 +1,48 @@
+{
+  "name": "reality-glitcher-mobile",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "description": "Reality Glitcher - AR Real-time World Transformation Mobile App",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "jest",
+    "lint": "eslint src/ --ext .ts,.tsx",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^7.4.6",
+    "@react-navigation/native": "^7.1.17",
+    "@react-navigation/stack": "^7.4.7",
+    "@reduxjs/toolkit": "^2.8.2",
+    "expo": "~53.0.20",
+    "expo-av": "^15.1.7",
+    "expo-camera": "^16.1.11",
+    "expo-file-system": "^18.1.11",
+    "expo-gl": "^15.1.7",
+    "expo-gl-cpp": "^11.4.0",
+    "expo-sharing": "^13.1.5",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-native": "0.79.5",
+    "react-native-gesture-handler": "^2.28.0",
+    "react-native-reanimated": "^4.0.2",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.11.1",
+    "react-redux": "^9.2.0",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/jest": "^29.5.0",
+    "@types/react": "~19.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.5.0",
+    "typescript": "~5.8.3"
+  },
+  "private": true
+}
